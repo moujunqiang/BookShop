@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="orange">#FF7F24</color>
+    <color name="BottomBar">#0F796B</color>
+    <color name="LightGreen">#B3D7D2</color>
+    <color name="White">#F5F5F5</color>
+    <color name="PureWhite">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="border_clo">#ccc</color>
+    <color name="text_clo">#0D1D23</color>
+    <color name="editText_clo">#A2A2A2</color>
+    <color name="text_grey_darker">#4c4c4c</color>
+    <color name="text_grey">#959595</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="SpringGreen">#3CB371</color>
+    <color name="table_divider_color">#E6E6E6</color>
+    <color name="recyclerview_divider_color">#E6E6E6</color>
+    <color name="LakeBlue">#80CBC4</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="PriceColor">#ED3A56</color>
+
+    <color name="icon_selling_edit">#C9C9CE</color>
+    <color name="icon_selling_delete">#F93F25</color>
+
+    <color name="menubar_default">#767676</color>
+    <color name="menubar_active">#E2752F</color>
+
+
+    <!-- color for book detail -->
+    <color name="PureBlack">#000000</color>
+    <color name="PriceOrange">#FD5300</color>
+    <color name="DefaultTextColor">#828282</color>
+    
+    <!-- color for tag-->
+    <color name="tag_border">#FFFFFF</color>
+    <color name="tag_bg">#FFEBEA</color>
+    <color name="tag_text">#433837</color>
+</resources>

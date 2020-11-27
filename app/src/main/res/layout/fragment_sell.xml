@@ -1,0 +1,18 @@
+<com.example.xmfy.yzubookshop.widget.CustomToolBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:title_text="售书列表"
+    app:title_visible="true"
+    app:right_tv_text="发布书籍"
+    app:right_tv_visible="true">
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/lv_selling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"/>
+
+</com.example.xmfy.yzubookshop.widget.CustomToolBar>

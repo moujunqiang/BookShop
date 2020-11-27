@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_buy_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_white"
+    tools:context="com.example.xmfy.yzubookshop.fragments.BuyFragment">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="65dp">
+            <include
+                layout="@layout/layout_menubar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/menubar_default"/>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/search_results_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:clipToPadding="false"
+                />
+
+        </LinearLayout>
+
+        <com.arlib.floatingsearchview.FloatingSearchView
+            android:id="@+id/floating_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:floatingSearch_close_search_on_keyboard_dismiss="false"
+            app:floatingSearch_dimBackground="false"
+            app:floatingSearch_dismissOnOutsideTouch="true"
+            app:floatingSearch_leftActionMode="showHamburger"
+            app:floatingSearch_menu="@menu/menu_search_view"
+            app:floatingSearch_searchBarMarginLeft="@dimen/search_view_inset"
+            app:floatingSearch_searchBarMarginRight="@dimen/search_view_inset"
+            app:floatingSearch_searchBarMarginTop="3dip"
+            app:floatingSearch_searchHint="Search..."
+            app:floatingSearch_showSearchKey="true"
+            app:floatingSearch_suggestionsListAnimDuration="250" />
+
+      <cn.bingoogolapple.badgeview.BGABadgeFloatingActionButton
+          android:id="@+id/fab_cart"
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          android:layout_gravity="bottom|right"
+          android:src="@mipmap/ic_cart"
+          android:backgroundTint="@color/PureWhite"
+          android:layout_margin="20dp"
+          app:borderWidth="0dp"
+          app:badge_textSize="16sp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
